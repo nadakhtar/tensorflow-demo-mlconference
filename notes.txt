@@ -1,0 +1,32 @@
+Tensorflow.js
+
+- secure as happening client side
+- fast with JS if doing pre & post processing
+- can use data vis libs
+- execute on gpu: web gl, cpu with webassembly, mobile: wazm, desktop: graphics card
+- mixed reality: webxr
+- WebRTC, also used by zoom
+- layersapi like kayas pyhton
+- ops api mathematical
+- ModelsApi > LayersApi (Keras Model) > OpsApi(Eager) (TensorFlow SavedModel) > Client >  Server Side(TFJS Converter): CPU/WebGL/WASM || Client Side: Node.js > TF CPU/TF GPU
+
+https://teachablemachine.withgoogle.com/train
+
+glitch.com - tensorflow js
+
+Demo 1: https://glitch.com/edit/#!/mleu-conf-workshop-tfjs?path=script.js%3A49%3A1
+Demo 2: https://glitch.com/edit/#!/tensorflowjs-simple-linear-regression?path=script.js%3A81%3A0
+All: https://glitch.com/edit/#!/tensorflow-js-object-detection?path=script.js%3A104%3A0
+
+Webcam Code: https://glitch.com/edit/#!/tensorflow-js-object-detection?path=script.js%3A155%3A15
+
+Demo 2: 
+- Simple linear regression - against straight line
+
+To understand tf.layers.dense, look at following (based on how the brain/humans work): 
+artificial neuron
+multi layered perceptron
+
+As model gets more competent with its accuracy, can reduce the learning rate (as accuracy increases, reduce learning rate might get better value out of answers)
+
+#madewithtfjs to see what people are doing with tensorflow.js: https://twitter.com/search?q=%23madewithtfjs&src=typed_query&f=live
