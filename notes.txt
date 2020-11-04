@@ -30,3 +30,4 @@ multi layered perceptron
 As model gets more competent with its accuracy, can reduce the learning rate (as accuracy increases, reduce learning rate might get better value out of answers)
 
 #madewithtfjs to see what people are doing with tensorflow.js: https://twitter.com/search?q=%23madewithtfjs&src=typed_query&f=live
+- Tenorflow.js YouTube - demos people have done and for show and tells
